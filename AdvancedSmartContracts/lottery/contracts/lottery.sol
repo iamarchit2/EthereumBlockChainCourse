@@ -1,4 +1,3 @@
-pragma solidity ^0.4.17;
 contract Lottery {
     address public manager; //public so that javascript program can access it.
     address[] public players;
